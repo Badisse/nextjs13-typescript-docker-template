@@ -17,7 +17,7 @@
 ## Technologies Used
 - Docker - version 20.10.18
 - Docker Compose - version 3.8
-- Next.js - version 12.3.1
+- Next.js - version 13
 - React - version 18.2.0
 - Typescript - version 4.8.4
 
@@ -32,10 +32,10 @@ Before using this repo, make sure you have installed:
 First you have to get the repo
 ```bash
 # Clone the repo 
-git clone git@github.com:Badisse/nextjs-typescript-docker-template.git
+git clone git@github.com:Badisse/nextjs13-typescript-docker-template.git
 
 # Get into the repo
-cd nextjs-typescript-docker-template
+cd nextjs13-typescript-docker-template
 ```
 
 You can now run the project:

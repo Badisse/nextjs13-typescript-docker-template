@@ -1,5 +1,5 @@
 FROM node:18.12-buster
 
-WORKDIR /app
+WORKDIR /src
 
 CMD ["sleep", "infinity"]

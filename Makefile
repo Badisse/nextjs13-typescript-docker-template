@@ -29,7 +29,7 @@ start:
 
 # Start nextjs dev
 nextjs-dev:
-	$(DCE) $(IMAGE) yarn dev
+	$(DCE) $(IMAGE) npm dev
 
 # Stop and remove containers
 stop:
@@ -37,7 +37,7 @@ stop:
 
 # Install node package with argument PACKAGE
 install-package:
-	$(DCE) $(IMAGE) yarn add $(PACKAGE)
+	$(DCE) $(IMAGE) npm install $(PACKAGE)
 
 # Execute command COMMAND inside container
 exec:
